@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# React Native Profile App
+###A simple profile app built with React Native, demonstrating context API for state management.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+Features=>
 
-1. Install dependencies
+Switch between profile sections (Images and About) using tabs.
+Display profile images dynamically based on the selected section.
+Show profile details under the About section using a scrollable view.
 
-   ```bash
-   npm install
-   ```
+Installation
+Clone the repository:
 
-2. Start the app
+bash
+Copy code
+git clone https://github.com/your-username/react-native-profile-app.git
+Navigate to the project directory:
 
-   ```bash
-    npx expo start
-   ```
+cd react-native-profile-app
+Install dependencies:
 
-In the output, you'll find options to open the app in a
+npm install
+Ensure you have set up your development environment for React Native as per the official documentation: Getting Started.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Usage
+To run the application on an Android or iOS simulator or device:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+npx react-native run-android
+# or
+npx react-native run-ios
+This will build and deploy the app to your emulator/device.
 
-When you're ready, run:
+Dependencies
+React Native: Official Documentation
+React: Official Documentation
+React Navigation: GitHub Repository
 
-```bash
-npm run reset-project
-```
+Contributing
+Contributions are welcome! If you find any issues or improvements, feel free to create a pull request or submit an issue in the issue tracker.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
